@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4ef;
+    color: #333;
+}
+
+header {
+    background-color: #c6a992;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #f2e6d9;
+}
+
+.hero h1 {
+    color: #a67b5b;
+}
+
+.hero .btn {
+    background-color: #a67b5b;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.sobre, .loja, .contato {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.product img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product .btn {
+    background-color: #a67b5b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form .btn {
+    margin-top: 1rem;
+    background-color: #a67b5b;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #c6a992;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
